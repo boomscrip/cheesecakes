@@ -1,0 +1,79 @@
+body {
+background-color: rgba(232,226,196,0.5);
+}
+
+.container {
+	padding: 0;
+}
+h1{
+	font-family: 'Lora', serif;
+}
+button {
+	width:50%;
+}
+
+.logo {
+	text-align: center;
+}
+
+.row {
+	width: 100%;
+	margin-right: 0!important;
+	margin-left: 0!important;
+}
+
+.col-md-4 {
+	text-align: center!important;
+}
+
+.card {
+padding-bottom: 15px;
+}
+
+.card img {
+ border-radius: 20px;
+
+}
+
+.nav-menu {
+	text-align: center;
+}
+
+.nav-menu a {
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	color: #a89e9e;
+	font-size: 25px;
+}
+
+ul,li {
+
+	display: inline-block;
+	padding: 0 21px;
+	/*text-decoration: underline;*/
+}
+
+a:focus, a:hover {
+    color: #474545;
+    text-decoration: none;
+}
+.name {
+	text-align: center;
+}
+footer {
+	font-family: 'PT Serif', serif;
+	text-align: center;
+}
+footer h2{
+	font-size: 18px;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .col-md-4 {
+    text-align: center!important;
+  }
+}
+
+@media (max-width: 767px) { .name h1 {font-size: 20px;} }
+
+@media (max-width: 320px) { .col-md-4 {padding-left: 10px;} }

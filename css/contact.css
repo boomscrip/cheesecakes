@@ -1,0 +1,21 @@
+.container {
+	width: 75%;
+	font-family: 'PT Serif', serif;
+}
+
+h1 {
+	text-align: -webkit-center;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+footer {
+	text-align: center;
+}
+
+@media (max-width: 480px) { h1 { font-size: 20px;} }
+
+@media (max-width: 320px) { h1 {font-size: 15px;} }
